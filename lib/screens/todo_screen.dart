@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:todo_application/helper/database_client.dart';
+import 'package:todo_application/helper/date_formattter.dart';
 import 'package:todo_application/model/todo_item.dart';
-import 'package:todo_application/utils/database_client.dart';
-import 'package:todo_application/utils/date_formattter.dart';
 
 class TodoScreen extends StatefulWidget {
   @override
